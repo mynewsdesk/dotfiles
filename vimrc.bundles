@@ -30,6 +30,7 @@ call plug#begin('~/.vim/bundle')
 Plug 'christoomey/vim-run-interactive'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'kchmck/vim-coffee-script'
+Plug 'kana/vim-textobj-user' " this is a dependency to vim-textobj-rubyblock
 Plug 'nelstrom/vim-textobj-rubyblock'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'pbrisbin/vim-mkdir'
