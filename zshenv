@@ -13,5 +13,8 @@ fi
 # mkdir .git/safe in the root of repositories you trust
 export PATH=".git/safe/../../bin:$PATH"
 
+# Postgres
+export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
+
 # Local config
 [[ -f ~/.zshenv.local ]] && source ~/.zshenv.local
