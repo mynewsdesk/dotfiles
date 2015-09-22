@@ -31,6 +31,8 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'christoomey/vim-run-interactive'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'easymotion/vim-easymotion'
+Plug 'kchmck/vim-coffee-script'
 Plug 'kana/vim-textobj-user' " this is a dependency to vim-textobj-rubyblock
 Plug 'kchmck/vim-coffee-script'
 Plug 'mattn/emmet-vim'

@@ -161,6 +161,11 @@ let NERDTreeHijackNetrw = 0
 " Emmet (css/html completion)
 let g:user_emmet_expandabbr_key = '<c-e>'
 
+" Easymotion config
+map , <Plug>(easymotion-prefix)
+map / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+
 " Local config
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
