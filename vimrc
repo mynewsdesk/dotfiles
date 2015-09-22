@@ -89,6 +89,9 @@ set colorcolumn=+1
 set number
 set numberwidth=5
 
+" Use solarized
+colorscheme solarized
+
 " Tab completion
 " will insert tab at beginning of line,
 " will use completion if not at beginning
