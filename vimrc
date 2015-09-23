@@ -156,6 +156,9 @@ set diffopt+=vertical
 " NERDtree
 map <C-n> :NERDTreeToggle<CR>
 
+" Emmet (css/html completion)
+let g:user_emmet_expandabbr_key = '<c-e>'
+
 " Local config
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local

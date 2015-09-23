@@ -33,6 +33,7 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'kana/vim-textobj-user' " this is a dependency to vim-textobj-rubyblock
 Plug 'kchmck/vim-coffee-script'
+Plug 'mattn/emmet-vim'
 Plug 'nelstrom/vim-textobj-rubyblock'
 Plug 'pbrisbin/vim-mkdir'
 Plug 'rking/ag.vim'
