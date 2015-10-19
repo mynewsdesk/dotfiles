@@ -164,6 +164,10 @@ let g:user_emmet_expandabbr_key = '<c-e>'
 " Easymotion config
 map , <Plug>(easymotion-prefix)
 
+" Move back and forth in the args file list with Gdiff to origin/master
+map [g :wincmd l<CR>:only<CR>:prev<CR>:Gdiff origin/master<CR>
+map ]g :wincmd l<CR>:only<CR>:next<CR>:Gdiff origin/master<CR>
+
 " Local config
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
