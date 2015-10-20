@@ -158,6 +158,8 @@ map <C-n> :NERDTreeToggle<CR>
 " don't use nerdtree when :e ing a directory
 let NERDTreeHijackNetrw = 0
 
+map <leader>e :Explore<CR>
+
 " Emmet (css/html completion)
 let g:user_emmet_expandabbr_key = '<c-e>'
 
