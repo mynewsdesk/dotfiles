@@ -165,6 +165,9 @@ let g:user_emmet_expandabbr_key = '<c-e>'
 
 " Easymotion config
 map , <Plug>(easymotion-prefix)
+map  _/ <Plug>(easymotion-sn)
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
 
 " Different cursors in different mode
 let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
